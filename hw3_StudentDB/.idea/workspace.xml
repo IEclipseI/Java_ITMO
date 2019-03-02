@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f757cd5a-bd23-4d24-8a68-f062f06d609c" name="Default Changelist" comment="" />
+    <list default="true" id="f757cd5a-bd23-4d24-8a68-f062f06d609c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/student/StudentDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-550">
-              <caret line="113" column="85" selection-start-line="113" selection-start-column="85" selection-end-line="113" selection-end-column="85" />
+            <state relative-caret-position="476">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,7 +34,7 @@
         <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentGroupQuery.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -40,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentQuery.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
+            <state relative-caret-position="102">
               <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
@@ -67,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/Student.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -95,6 +97,9 @@
       <find>sortByNam</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -107,10 +112,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="width" value="1890" />
-    <option name="height" value="960" />
+    <option name="x" value="549" />
+    <option name="y" value="-21" />
+    <option name="width" value="981" />
+    <option name="height" value="1041" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -120,35 +127,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3_StudentDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw3_StudentDB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3_StudentDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw3_StudentDB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hw3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3_StudentDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw3_StudentDB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -164,12 +153,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551097298015" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_utils/java-advanced-2019/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw1_RecursiveWalk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -276,6 +266,7 @@
       <workItem from="1550845521782" duration="3559000" />
       <workItem from="1550936996237" duration="43271000" />
       <workItem from="1551082928021" duration="7066000" />
+      <workItem from="1551540995091" duration="3027000" />
     </task>
     <servers />
   </component>
@@ -288,12 +279,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54735000" />
+    <option name="totallyTimeSpent" value="57762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.094736844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.09635627" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.2534413" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,45 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/Group.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/Student.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentGroupQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -500,13 +457,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/student/StudentDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="113" column="85" selection-start-line="113" selection-start-column="85" selection-end-line="113" selection-end-column="85" />
+        <state relative-caret-position="476">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentGroupQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/Group.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/Student.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
