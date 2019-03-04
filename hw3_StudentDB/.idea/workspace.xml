@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f757cd5a-bd23-4d24-8a68-f062f06d609c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1_RecursiveWalk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/student/StudentDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,8 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +264,8 @@
       <workItem from="1550845521782" duration="3559000" />
       <workItem from="1550936996237" duration="43271000" />
       <workItem from="1551082928021" duration="7066000" />
-      <workItem from="1551540995091" duration="3027000" />
+      <workItem from="1551540995091" duration="3120000" />
+      <workItem from="1551614994386" duration="247000" />
     </task>
     <servers />
   </component>
@@ -279,13 +278,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57762000" />
+    <option name="totallyTimeSpent" value="58102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.09635627" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.12469636" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.2534413" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/student/StudentDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.student.jar!/info/kgeorgiy/java/advanced/student/StudentGroupQuery.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -497,6 +485,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Paradigms/HW1/src/SHA256Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/student/StudentDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

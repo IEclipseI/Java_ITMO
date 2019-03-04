@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e15ca526-6b4b-400c-b097-ad885343678a" name="Default Changelist" comment="" />
+    <list default="true" id="e15ca526-6b4b-400c-b097-ad885343678a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hw4_Implementor/src/ru/ifmo/rain/smirnov/implementor/Implementor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3_StudentDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3_StudentDB/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/arrayset/ArraySet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="255">
+              <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
               <folding>
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
@@ -32,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/arrayset/ReversedListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="340">
               <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,6 +69,9 @@
       <find>itera</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -81,6 +89,7 @@
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -91,22 +100,86 @@
           <expand>
             <path>
               <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw2" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="array_set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="array_set" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="array_set" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="array_set" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="array_set" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="smirnov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="array_set" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ifmo" type="462c0819:PsiDirectoryNode" />
+              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="smirnov" type="462c0819:PsiDirectoryNode" />
               <item name="arrayset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="array_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw2_ArraySet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,7 +193,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550490810541" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -211,6 +284,7 @@
       <workItem from="1550730094598" duration="1237000" />
       <workItem from="1550844001449" duration="291000" />
       <workItem from="1550846783867" duration="637000" />
+      <workItem from="1551624044303" duration="449000" />
     </task>
     <servers />
   </component>
@@ -223,13 +297,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38730000" />
+    <option name="totallyTimeSpent" value="39179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.23238866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.23600973" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.24939272" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/arrayset/ReversedListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="340">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -354,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/arrayset/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="255">
+          <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
           <folding>
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
