@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -71,7 +72,7 @@ public class Implementor implements Impler {
 
     @Override
     public void implement(Class<?> token, Path root) throws ImplerException {
-        if (token.isPrimitive() || token.isArray() || token.isEnum() || Modifier.isFinal(token.getModifiers())) {
+        if (token.equals(Enum.class) || token.isPrimitive() || token.isArray() || token.isEnum() || Modifier.isFinal(token.getModifiers())) {
             throw new ImplerException("bad token");
         }
         Path filepath = getFilePath(token, root);
@@ -89,11 +90,13 @@ public class Implementor implements Impler {
     }
 
     private void writeConstructors(Writer writer, Class<?> token) throws ImplerException {
-        Constructor<?>[] constructors = token.getConstructors();
-        if (constructors.length == 0) {
+        Constructor<?>[] constructors = token.getDeclaredConstructors();
+        List<Constructor<?>> constructors1 = Arrays.stream(constructors)
+                .filter(x -> !Modifier.isPrivate(x.getModifiers())).collect(Collectors.toList());
+        if (constructors1.size() == 0) {
             throw new ImplerException("No constructors in non abstract class");
         }
-        for (Constructor<?> constructor : constructors) {
+        for (Constructor<?> constructor : constructors1) {
             try {
                 writer.write(getExecutable(constructor));
             } catch (IOException e) {

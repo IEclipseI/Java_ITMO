@@ -19,16 +19,15 @@
     </orderEntry>
     <orderEntry type="module-library">
       <library>
-        <CLASSES />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/lib" />
+        </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/modules/info.kgeorgiy.java.advanced.arrayset" />
-          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/modules/info.kgeorgiy.java.advanced.base" />
-          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/modules/info.kgeorgiy.java.advanced.concurrent" />
-          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/modules/info.kgeorgiy.java.advanced.implementor" />
-          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/modules/info.kgeorgiy.java.advanced.student" />
-          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/modules/info.kgeorgiy.java.advanced.walk" />
+          <root url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/lib" />
         </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../test_utils_for_pull/java-advanced-2019/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
