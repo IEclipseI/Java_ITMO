@@ -1,8 +1,8 @@
 package ru.ifmo.rain.smirnov.student;
 
+import info.kgeorgiy.java.advanced.student.AdvancedStudentGroupQuery;
 import info.kgeorgiy.java.advanced.student.Group;
 import info.kgeorgiy.java.advanced.student.Student;
-import info.kgeorgiy.java.advanced.student.StudentGroupQuery;
 
 import java.util.*;
 import java.util.function.BinaryOperator;
@@ -16,7 +16,7 @@ import static java.util.stream.Collectors.*;
 import static java.util.Map.Entry;
 
 
-public class StudentDB implements StudentGroupQuery {
+public class StudentDB implements AdvancedStudentGroupQuery {
 
     private final static Comparator<Student> COMP_STUDENT = comparing(Student::getLastName).
             thenComparing(Student::getFirstName).
@@ -134,7 +134,7 @@ public class StudentDB implements StudentGroupQuery {
                 .sorted(groupComp);
     }
 
-    private <R> List<Group> getSortedGroupsWithSortedStudents(Collection<Student> collection,
+    private List<Group> getSortedGroupsWithSortedStudents(Collection<Student> collection,
                                                               Function<Collection<Student>, List<Student>> studComp,
                                                               Comparator<Group> groupComp) {
         return collectToList(getSortedGroupsWithSortedStudentsStream(collection, studComp, groupComp));
@@ -164,5 +164,42 @@ public class StudentDB implements StudentGroupQuery {
                         (Entry<String, List<Student>> group) -> getDistinctFirstNames(group.getValue()).size())
                         .thenComparing(Entry::getKey, Collections.reverseOrder(String::compareTo)))
                 .map(Entry::getKey).orElse("");
+    }
+
+    private class Pair {
+        private String key;
+        private Set<String> value;
+
+        public Pair(String key, Set<String> value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        public String getKey() {
+            return key;
+        }
+
+        public Set<String> getValue() {
+            return value;
+        }
+
+        public int getValueSize() {
+            return value.size();
+        }
+
+        public int getKeyLength() {
+            return key.length();
+        }
+    }
+
+    @Override
+    public String getMostPopularName(Collection<Student> collection) {
+        return collection.stream()
+                .collect(groupingBy(x -> x.getFirstName() + " " + x.getLastName(), TreeMap::new, toList()))
+                .entrySet().stream().map((Entry<String, List<Student>> group) ->
+                        new Pair(group.getKey(),
+                                new HashSet<String>(getGroups(group.getValue()))))
+                .max(comparingInt(Pair::getValueSize).thenComparing(Pair::getKey))
+                .orElse(new Pair("", Collections.emptySet())).getKey();
     }
 }
