@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e15ca526-6b4b-400c-b097-ad885343678a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw4_Implementor/src/ru/ifmo/rain/smirnov/implementor/Implementor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw56_JarImplementor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw56_JarImplementor/src/Manifest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw56_JarImplementor/src/ru/ifmo/rain/smirnov/implementor/Implementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7_Concurrent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7_Concurrent/src/ru/ifmo/rain/smirnov/concurrent/IterativeParallelism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw3.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw3_StudentDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw3_StudentDB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4_Implementor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4_Implementor/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/arrayset/ArraySet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+            <state relative-caret-position="164">
+              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
@@ -95,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,8 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,6 +290,7 @@
       <workItem from="1550844001449" duration="291000" />
       <workItem from="1550846783867" duration="637000" />
       <workItem from="1551624044303" duration="449000" />
+      <workItem from="1552902404821" duration="128000" />
     </task>
     <servers />
   </component>
@@ -297,13 +303,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39179000" />
+    <option name="totallyTimeSpent" value="39307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.23600973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.23967612" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.24939272" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,41 +344,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.base.jar!/info/kgeorgiy/java/advanced/base/BaseTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/lib/junit-4.11.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.arrayset.jar!/info/kgeorgiy/java/advanced/arrayset/NavigableSetTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.arrayset.jar!/info/kgeorgiy/java/advanced/arrayset/SortedSetTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2414">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.arrayset.jar!/info/kgeorgiy/java/advanced/arrayset/Tester.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.base.jar!/info/kgeorgiy/java/advanced/base/BaseTest.class" />
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/lib/junit-4.11.jar!/org/junit/Assert.class" />
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.arrayset.jar!/info/kgeorgiy/java/advanced/arrayset/NavigableSetTest.class" />
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.arrayset.jar!/info/kgeorgiy/java/advanced/arrayset/SortedSetTest.class" />
+    <entry file="jar://$PROJECT_DIR$/../test_utils/java-advanced-2019/artifacts/info.kgeorgiy.java.advanced.arrayset.jar!/info/kgeorgiy/java/advanced/arrayset/Tester.class" />
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -428,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/rain/smirnov/arrayset/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="114" column="8" lean-forward="true" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
+        <state relative-caret-position="164">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding>
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
