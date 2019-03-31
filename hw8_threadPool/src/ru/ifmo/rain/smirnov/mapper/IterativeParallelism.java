@@ -1,14 +1,28 @@
-package ru.ifmo.rain.smirnov.concurrent;
+package ru.ifmo.rain.smirnov.mapper;
 
 import info.kgeorgiy.java.advanced.concurrent.ListIP;
+import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class IterativeParallelism implements ListIP {
+    private final ParallelMapper mapper;
+
+    public IterativeParallelism(ParallelMapper mapper) {
+        this.mapper = mapper;
+    }
+
+    public  IterativeParallelism() {
+        mapper = null;
+    }
+
 
     private <T, R> R parallelWork(int threads, List<? extends T> values,
                                   final Function<Stream<? extends T>, ? extends R> task,
@@ -28,16 +42,21 @@ public class IterativeParallelism implements ListIP {
             low = high;
         }
 
-        List<Thread> workers = new ArrayList<>();
-        final List<R> results = new ArrayList<>(Collections.nCopies(threadsCount, null));
-        for (int i = 0; i < threadsCount; i++) {
-            final int iCopy = i;
-            workers.add(new Thread(() -> results.set(iCopy, task.apply(partitions.get(iCopy)))));
-            workers.get(i).start();
-        }
+        final List<R> results;
+        if (mapper != null) {
+            results = mapper.map(task, partitions);
+        } else {
+            results = new ArrayList<>(Collections.nCopies(threadsCount, null));
+            List<Thread> workers = new ArrayList<>();
+            for (int i = 0; i < threadsCount; i++) {
+                final int iCopy = i;
+                workers.add(new Thread(() -> results.set(iCopy, task.apply(partitions.get(iCopy)))));
+                workers.get(i).start();
+            }
 
-        for (int i = 0; i < threadsCount; i++) {
-            workers.get(i).join();
+            for (int i = 0; i < threadsCount; i++) {
+                workers.get(i).join();
+            }
         }
         return resolveResult.apply(results.stream());
     }

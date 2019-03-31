@@ -7,4 +7,4 @@ set src=C:\Workspace\ITMO_lessons\Java_hw\hw7_Concurrent\src\%pack%
 set jar=%tests%\info.kgeorgiy.java.advanced.concurrent.jar
 javac -d %compiled% -cp %jar% %src%IterativeParallelism.java
 set classpath=%libs%;%tests%;%compiled%
-java -p %classpath% -m info.kgeorgiy.java.advanced.concurrent scalar ru.ifmo.rain.smirnov.concurrent.IterativeParallelism
+java -p %classpath% -m info.kgeorgiy.java.advanced.concurrent list ru.ifmo.rain.smirnov.concurrent.IterativeParallelism
