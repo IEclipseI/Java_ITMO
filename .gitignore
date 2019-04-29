@@ -18,7 +18,9 @@ test_utils_for_pull/
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
-
+*.xml
+*.iml
+examples
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
